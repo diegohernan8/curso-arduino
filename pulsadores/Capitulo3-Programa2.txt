@@ -1,15 +1,16 @@
-/*
+﻿/*
 	Capitulo 3 de Arduino desde cero en Español
-	Tercer programa que al presionarse el pulsador enciende LED por 5 segundos y luego
-	apaga solo.
+	Segundo programa que al presionar el pulsador mantiene encendido el led hasta que vuelva
+	a presionarse para apagarse.
 
-	Autor: bitwiseAr  
+	Autor:  
 
 */
 
 
 int PULSADOR = 2; 
 int LED=3; 
+int ESTADO=LOW; 
 
 void setup(){ 
 
@@ -24,9 +25,8 @@ void loop (){
 while(digitalRead(PULSADOR) == LOW){ 	// espera infinitamente hasta que se presione el pulsador
  }
 
-digitalWrite(LED, HIGH);		// enciende LED
-delay(5000); 				// espera de 5 seg.
-digitalWrite(LED, LOW); 		// apaga LED
+ESTADO = digitalRead(LED); 		// leo estado del LED para saber si esta encendido o apagado
+digitalWrite(LED, !ESTADO); 		// escribo en la salida el valor apuesto al leido con anterioridad
 
 while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
  }

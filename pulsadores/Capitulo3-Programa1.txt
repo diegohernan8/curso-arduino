@@ -1,9 +1,9 @@
-/*
-	Capitulo 3 de Arduino desde cero en Español
+﻿/*
+	
 	Primer programa que permite al presionar un pulsador que encienda un led, al soltar el mismo
 	se apaga.
 
-	Autor: bitwiseAr  
+	Autor: 
 
 */
 
