@@ -7,7 +7,7 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 
 1.	[Materiales](#materiales)
 	
-2.	[Esquema eléctrico](#pulsadorledencendido_programa2.png)
+2.	[Esquema eléctrico](pulsadorledencendido_programa2.png)
 
 3.	[Programación en Arduino](#Arduino1)
 
@@ -15,7 +15,9 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 
 
 ***
-
+<br />
+<hr>
+<br />
 
 
 ### Materiales
@@ -29,7 +31,9 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 - 1 diodo led
 
 
-
+<br />
+<hr>
+<br />
 
 
 
