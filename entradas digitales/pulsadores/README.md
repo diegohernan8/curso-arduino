@@ -1,17 +1,16 @@
-# Entradas digitales 
-#Pulsadores
+# Entradas digitales #Pulsadores
+
 
 ![Animación](Animación.gif)
 
 En esta práctica tenemos que programar utilizando pulsador y cambiando la programacion .
 
 1.	[Materiales](#materiales)
-2.	
-3.	[Esquema eléctrico](#esquema-eléctrico)
-4.	
-5.	
-6.	[Programación en Arduino](#programación-en-arduino)
-7.  [Video resumen](#video-resumen)
+	
+2.	[Esquema eléctrico](#pulsadorledencendido_programa2)
+
+3.	[Programación en Arduino](#programación-en-arduino)
+
 
 
 
