@@ -9,15 +9,13 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 	
 2.	[Esquema eléctrico](pulsadorledencendido_programa2.png)
 
-3.	[Programación en Arduino](#Arduino1)
+3.	[Programación en Arduino](#Arduino programa uno)
 
 
 
 
 ***
-<br />
-<hr>
-<br />
+
 
 
 ### Materiales
@@ -30,14 +28,14 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 - 1 pulsador
 - 1 diodo led
 
+```
 
-<br />
-<hr>
-<br />
 
 
 
 ###Arduino 
+
+```
 /*
 	
 	Primer programa que permite al presionar un pulsador que encienda un led, al soltar el mismo
@@ -69,7 +67,8 @@ else
 }
  
 }
-
+```
+[Descarga el código para Arduino](Arduino/Capitulo3-Programa1.txt)
 <br />
 <hr>
 <br />
