@@ -32,6 +32,10 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 
 
 
+<br />
+<hr>
+<br />
+
 
 ### Arduino_programa_uno 
 
@@ -73,6 +77,10 @@ else
 
 ```
 
+
+<br />
+<hr>
+<br />
 
 [Descarga el código para Arduino](Arduino/Capitulo3-Programa1.txt)
 
