@@ -1,7 +1,7 @@
-# Entradas digitales #Pulsadores
+# Entradas digitales Pulsadores
 
 
-![Animación](Animación.gif)
+
 
 En esta práctica tenemos que programar utilizando pulsador y cambiando la programacion .
 
@@ -9,9 +9,9 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 	
 2.	[Esquema eléctrico](pulsadorledencendido_programa2.png)
 
-3.	[Programación en Arduino](#Arduino programa uno)
+3.	[Programación en Arduino](#Arduino_programa_uno )
 
-
+       [Simulacion](#Simulacion)
 
 
 ***
@@ -33,7 +33,7 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 
 
 
-###Arduino 
+###Arduino_programa_uno 
 
 ```
 /*
@@ -43,7 +43,7 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 
 	Autor: dmensi
 
-      actividad: https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA
+      
 
 */
 
@@ -69,6 +69,13 @@ else
 }
 ```
 [Descarga el código para Arduino](Arduino/Capitulo3-Programa1.txt)
+
+### Simulacion
+
+[simulacion 1](https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA)
+
+
+
 <br />
 <hr>
 <br />
