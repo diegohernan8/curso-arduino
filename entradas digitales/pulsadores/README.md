@@ -9,7 +9,7 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 	
 2.	[Esquema eléctrico](#pulsadorledencendido_programa2)
 
-3.	[Programación en Arduino](#programación-en-arduino)
+3.	[Programación en Arduino](#Arduino)
 
 
 
