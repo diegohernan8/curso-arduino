@@ -3,7 +3,9 @@
 	Tercer programa que al presionarse el pulsador enciende LED por 5 segundos y luego
 	apaga solo.
 
-	Autor: 
+	Autor:dmensi
+
+    Actividad: https://www.tinkercad.com/things/gb0HKUHM2n7?sharecode=QGFMkSWSGsw4kN1dhWI2le8HverUN9tOBViiAIUj-JY
 
 */
 

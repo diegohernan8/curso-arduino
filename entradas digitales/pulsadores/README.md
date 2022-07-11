@@ -6,10 +6,10 @@
 En esta práctica tenemos que programar utilizando pulsador y cambiando la programacion .
 
 1.	[Materiales](#materiales)
-2.	[Diagrama de flujo](#diagrama-de-flujo)
+2.	
 3.	[Esquema eléctrico](#esquema-eléctrico)
-4.	[Programación en mBlock](#programación-en-mblock)
-5.	[Programación en S4A](#programación-en-s4a)
+4.	
+5.	
 6.	[Programación en Arduino](#programación-en-arduino)
 7.  [Video resumen](#video-resumen)
 
