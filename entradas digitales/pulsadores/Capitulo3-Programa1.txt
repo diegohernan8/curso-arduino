@@ -3,7 +3,9 @@
 	Primer programa que permite al presionar un pulsador que encienda un led, al soltar el mismo
 	se apaga.
 
-	Autor: 
+	Autor: dmensi
+
+      actividad: https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA
 
 */
 
@@ -27,3 +29,7 @@ else
 }
  
 }
+
+
+
+
