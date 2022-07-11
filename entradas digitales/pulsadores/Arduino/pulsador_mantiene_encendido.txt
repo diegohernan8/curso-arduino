@@ -1,0 +1,36 @@
+﻿/*
+	
+	Segundo programa que al presionar el pulsador mantiene encendido el led hasta que vuelva
+	a presionarse para apagarse.
+
+	Autor:  
+
+     simular https://www.tinkercad.com/things/0cWJk7p4Jt7?sharecode=aEdrD4DAL7dAbNCpS0_6sW6iMnnUz18F6t-7lEHmWto
+
+*/
+
+
+int PULSADOR = 2; 
+int LED=3; 
+int ESTADO=LOW; 
+
+void setup(){ 
+
+pinMode(PULSADOR, INPUT); 
+pinMode(LED, OUTPUT); 
+digitalWrite(LED, LOW);
+
+ } 
+
+void loop (){ 
+
+while(digitalRead(PULSADOR) == LOW){ 	// espera infinitamente hasta que se presione el pulsador
+ }
+
+ESTADO = digitalRead(LED); 		// leo estado del LED para saber si esta encendido o apagado
+digitalWrite(LED, !ESTADO); 		// escribo en la salida el valor apuesto al leido con anterioridad
+
+while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
+ }
+
+}

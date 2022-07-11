@@ -7,11 +7,16 @@ En esta práctica tenemos que programar utilizando pulsador y cambiando la progr
 
 1.	[Materiales](#materiales)
 	
-2.	[Esquema eléctrico](pulsadorledencendido_programa2.png)
+2.	[Esquema eléctrico](pulsador1.png)
+3.    [Programación en Arduino](#arduino_uno)
+   
+4.    [Esquema eléctrico](pulsador2.png)
+5.    [Programación en Arduino](#arduino_dos)
 
-3.	[Programación en Arduino](#Arduino_programa_uno )
+6.    [Esquema eléctrico](pulsador3.png)
+7.    [Programación en Arduino](#arduino_tres)
 
-4.     [Circuito simulador](#Simular)
+8.    [Simulador de circuitos](#simular)
 
 
 ***
@@ -37,7 +42,7 @@ Para llevar a cabo la práctica, vamos a necesitar los siguientes materiales:
 <br />
 
 
-### Arduino_programa_uno 
+### Arduino uno 
 
 ```
 
@@ -76,18 +81,59 @@ else
 
 
 ```
+<br />
+<hr>
+<br />
 
+[Descarga el código para Arduino](Arduino/pulsador_mas_led1.ino)
 
 <br />
 <hr>
 <br />
 
-[Descarga el código para Arduino](Arduino/Capitulo3-Programa1.txt)
+### Arduino dos 
+
+```
+int PULSADOR = 2; 
+int LED=3; 
+int ESTADO=LOW; 
+
+void setup(){ 
+
+pinMode(PULSADOR, INPUT); 
+pinMode(LED, OUTPUT); 
+digitalWrite(LED, LOW);
+
+ } 
+
+void loop (){ 
+
+while(digitalRead(PULSADOR) == LOW){ 	// espera infinitamente hasta que se presione el pulsador
+ }
+
+ESTADO = digitalRead(LED); 		// leo estado del LED para saber si esta encendido o apagado
+digitalWrite(LED, !ESTADO); 		// escribo en la salida el valor apuesto al leido con anterioridad
+
+while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
+ }
+
+}
+```
+<br />
+<hr>
+<br />
+
+
+[Descarga el código para Arduino](Arduino/pulsador_mantiene_encendido)
+
+<br />
+<hr>
+<br />
 
 ### Simular
 
-[circuito simulador ](https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA)
-
+[simulador de circuitos pulsador mas led  ](https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA)
+[simulador de circuitos mantiene encendido el led ] (https://www.tinkercad.com/things/0cWJk7p4Jt7?sharecode=aEdrD4DAL7dAbNCpS0_6sW6iMnnUz18F6t-7lEHmWto)
 
 
 <br />

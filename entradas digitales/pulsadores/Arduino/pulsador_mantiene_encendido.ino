@@ -1,11 +1,8 @@
-﻿/*
-	Capitulo 3 de Arduino desde cero en Español
-	Segundo programa que al presionar el pulsador mantiene encendido el led hasta que vuelva
-	a presionarse para apagarse.
-
-	Autor:  
-
-     Actividad: https://www.tinkercad.com/things/0cWJk7p4Jt7?sharecode=aEdrD4DAL7dAbNCpS0_6sW6iMnnUz18F6t-7lEHmWto
+/*
+	
+	segundo programa que permite al presionar un pulsador que encienda un led, se mantiene encendido hasta que se presiona nuevamente
+	
+	Autor: dmensi
 
 */
 
@@ -34,3 +31,4 @@ while(digitalRead(PULSADOR) == HIGH){ 	// espera como funcion antirebote simple
  }
 
 }
+
