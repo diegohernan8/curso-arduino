@@ -78,7 +78,7 @@ else
 
 ### Simular
 
-[![circuito simulador ](https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA)
+[circuito simulador ](https://www.tinkercad.com/things/k9RTlBlwo6B?sharecode=hYScllpfCzu0t4QKINiqQxygBKE9eoqV7HamNUPYfPA)
 
 
 
