@@ -1,9 +1,11 @@
 /*
-	Capitulo 6 de Arduino desde cero en Español
+	
 	Primer programa que mueve el servomotor de 0 a 180 grados cada cinco segundos y
 	se usa para determinar el valor practico del pulso minimo y maximo.
 
-	Autor: bitwiseAr  
+	Autor: dmensi
+
+      simulador: https://www.tinkercad.com/things/77pgTMTQmsa?sharecode=qexSDihsEXDEM9Ot252UFBORyMSk_ZLC4xyzWgtiSPg
 
 */
 

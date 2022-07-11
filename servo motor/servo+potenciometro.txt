@@ -1,9 +1,9 @@
 /*
-	Capitulo 6 de Arduino desde cero en Español
+	
 	Segundo programa que lee el valor del potenciometro conectado a entrada A0
 	y lo convierte a valor de angulo para mover al servo hacia el mismo.
 
-	Autor: bitwiseAr  
+	Autor: dmensi
 
 */
 

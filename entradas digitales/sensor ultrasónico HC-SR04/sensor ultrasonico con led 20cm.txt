@@ -1,9 +1,11 @@
 /*
-	Capitulo 5 de Arduino desde cero en Español
-	Primer programa que envía mediante el Monitor Serial el valor de distancia
-	leído por el sensor ultrasónico HC-SR04.
+	
+	Leído por el sensor ultrasónico HC-SR04 y enciende y apaga LED dentro del
+	rango de 0 a 20 cms.
 
-	Autor: bitwiseAr  
+	Autor: dmensi
+
+      simulador: https://www.tinkercad.com/things/jOxdiA3S36V?sharecode=k1n9dj7KfeAHdl0gy57NmUV7D4X6Eh48DqsVBSkT3MA
 
 */
 
@@ -35,6 +37,10 @@ void loop()
   Serial.println(DISTANCIA);		// envio de valor de distancia por monitor serial
   delay(200);				// demora entre datos
 
-
+  if (DISTANCIA <= 20 && DISTANCIA >= 0){	// si distancia entre 0 y 20 cms.
+    digitalWrite(LED, HIGH);			// enciende LED
+    delay(DISTANCIA * 10);			// demora proporcional a la distancia
+    digitalWrite(LED, LOW);			// apaga LED
+    }
    
 }
