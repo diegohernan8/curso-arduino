@@ -3,8 +3,8 @@
 	Programa que utiliza el sensor DHT22 o DHT11 para obtener datos de temperatura
 	y humedad. Deben instalarse la Librerias DHT Sensor Library y Adafruit Unified Sensor.
 
-	Autor: bitwiseAr  
-
+	Autor: dmensi
+ 
 */
 
 #include <DHT.h>		// importa la Librerias DHT
