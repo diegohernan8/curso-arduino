@@ -26,7 +26,7 @@ void setup()
 void loop()
 {
   servo1.write(0);		// ubica el servo a 0 grados
-  delay(5000); 			// espera de 5 seg.
+  delay(20000); 			// espera de 5 seg.
   servo1.write(180);		// ubica el servo a 180 grados
   delay(5000);			// espera de 5 seg.
 }

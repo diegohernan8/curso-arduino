@@ -3,8 +3,7 @@
 	Programa que permite mostrar en el modulo LCD el tiempo transcurrido en segundos desde
 	que se inicio el programa.
 
-	Autor: bitwiseAr  
-
+	Autor: dmensi
 */
 
 #include <LiquidCrystal.h>		// importa libreria

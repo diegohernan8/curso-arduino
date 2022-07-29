@@ -1,9 +1,9 @@
 /*
-  Capitulo 9 de Arduino desde cero en Español
+  
   Programa que permite conectar un teclado matricial de membrana de 4x4 y realizar
   un simple control de acceso con contraseña. Debe instalarse la libreria Keypad.
 
-  Autor: bitwiseAr  
+  Autor: dmensi
 
 */
 

@@ -1,9 +1,9 @@
 /*
-	Capitulo 8 de Arduino desde cero en Español
+	
 	Programa que permite verificar el funcionamiento de un modulo de rele, simple o
 	doble activandolo a intervalos de 5 segundos.
 
-	Autor: bitwiseAr  
+	Autor: 
 
 */
 
