@@ -3,7 +3,7 @@
 	Programa que enciende un LED RGB pasando por sus colores cada dos segundos.
 	LED RGB de cátodo común con resistencias de 330 ohms en serie con cada ánodo.
 
-	Autor: bitwiseAr  
+	Autor: dmensi
 
 */
 
